@@ -7,7 +7,7 @@ import scalalib._
 // support BSP
 import mill.bsp._
 
-object %NAME% extends SbtModule { m =>
+object RobustCore extends SbtModule { m =>
   override def millSourcePath = os.pwd
   override def scalaVersion = "2.13.15"
   override def scalacOptions = Seq(
