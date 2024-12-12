@@ -6,7 +6,7 @@ import chisel3.util._
 import Instruction._
 import common.decode.Consts._
 import common.utils.ImplicitCast._
-import iFu.backend.DecodeLogic
+import common.decode.DecodeLogic
 import common.decode.CauseCode._
 import common.decode._
 
